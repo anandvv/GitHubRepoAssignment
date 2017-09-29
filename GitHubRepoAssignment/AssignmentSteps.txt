@@ -1,0 +1,14 @@
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+copy NUL readme.md
+notepad readme.md -> add some comments on this project
+save the file
+git status
+git add .
+git commit -m "GitHub Repo Assignment Initial file(s)"
+create a new Remote repo on GitHub called https://github.com/anandvv/GitHubRepoAssignment
+	https://github.com/anandvv/GitHubRepoAssignment.git
+Setup a connection to the remote repo
+	git remote add origin https://github.com/anandvv/GitHubRepoAssignment.git
+git push origin master
